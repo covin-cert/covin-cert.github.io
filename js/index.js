@@ -59,7 +59,7 @@ async function downloadCertificate(bId) {
   const res = await axios({
     method: "get",
     url: "https://cdn-api.co-vin.in/api/v2/registration/certificate/public/download",
-    params: { beneficiary_reference_id: bId ? bId : beneficiary_reference_id },
+    params: { beneficiary_reference_id },
     headers: {
       "Content-Type": "application/json",
       Accept: "application/pdf",
