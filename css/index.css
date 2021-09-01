@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.custom-form {
+  margin: 0 auto;
+  text-align: left;
+}
+
+#otpInputForm {
+  display: none;
+}
+
+#getMyCertificate {
+  display: none;
+  margin: 0 auto;
+}
+
+#logOut {
+  display: none;
+  margin: 0 auto;
+}
